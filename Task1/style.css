@@ -1,0 +1,23 @@
+body{
+    background-color:cornsilk;
+}
+
+#one {
+    text-align: center; 
+}
+
+*{
+    text-transform: capitalize;
+}
+
+p{
+    font-size: 20px;
+}
+
+button{
+    background-color: azure;
+    color: black;
+    padding: 15px 25px;
+    font-size: 20px;
+}
+
