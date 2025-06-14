@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beginner Product Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Project</a></li>
+      <li><a href="#productPage">Product Page</a></li>
+      <li><a href="#contact">Contact Me</a></li>
+    </ul>
+  </nav>
+
+  <section id="about">
+    <h2>About</h2>
+    <p style="text-align:center; max-width:600px; margin:auto;">
+      My name is r0nyy. I am pursuing my B.Tech degree from GEC Samastipur.
+      I am interested in Blockchain and Open Source.
+      I am passionate about developing web applications and learning emerging technologies.
+      Through my academic and personal projects, I strive to enhance my skills and contribute to the tech community.
+    </p>
+  </section>
+
+  <section id="projects">
+    <h2>Project</h2>
+    <ul style="max-width:600px; margin:auto; list-style: disc; padding-left: 40px;">
+      <li><strong>My Portfolio:</strong> A personal website showcasing my skills, education, and projects using HTML and CSS. It reflects my journey and achievements in web development.</li>
+      <li><strong>To-Do List:</strong> A dynamic to-do list application that allows users to add and remove tasks using JavaScript. It features an intuitive UI and persistent data management.</li>
+      <li><strong>Joke App using Public API:</strong> An interactive app that fetches jokes from a public API and displays them on the page. It demonstrates the use of API integration and event handling in JavaScript.</li>
+    </ul>
+  </section>
+
+  <section id="productPage">
+    <h2>Product Page</h2>
+    <p style="text-align:center; max-width:600px; margin:auto;">
+      Welcome to the product showcase! Use the filters below to narrow down your search based on category, price, and sort by rating. This interactive section is designed to demonstrate dynamic content filtering and sorting using JavaScript.
+    </p>
+    <div class="filters">
+      <select id="categoryFilter">
+        <option value="all">All Categories</option>
+        <option value="tech">Tech</option>
+        <option value="fashion">Fashion</option>
+      </select>
+
+      <select id="priceFilter">
+        <option value="all">All Prices</option>
+        <option value="low">Below ₹1000</option>
+        <option value="high">Above ₹1000</option>
+      </select>
+
+      <select id="sortFilter">
+        <option value="default">Sort By</option>
+        <option value="rating">Rating</option>
+      </select>
+    </div>
+    <div class="product-list" id="productList">
+      <!-- Products will be rendered here -->
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p style="text-align:center; max-width:600px; margin:auto;">
+      Email: <strong>raunakraj843118@gmail.com</strong><br>
+      Phone: <strong>+91-7488024584</strong><br>
+      LinkedIn: <strong><a href="https://www.linkedin.com/in/raunak-raj-abb755302/" target="_blank">linkedin.com/in/r0nyy</a></strong><br>
+      GitHub: <strong><a href="https://github.com/r0nyy12" target="_blank">github.com/r0nyy12</a></strong>
+    </p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
